@@ -23,16 +23,16 @@ export const Profile = () => {
             </p>
             <div className='w-auto my-6 text-iconscolorktp  flex gap-8 text-3xl '>
 
-              <a href="https://discord.com/users/586083808508379137" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.com/users/586083808508379137" target="_blank" rel="noopener noreferrer">
 
-                <AiOutlineDiscord className='hover:text-iconscolorktphover transition cursor-pointer' />
-              </a>
-              <a href="mailto:karanpustake0@gmail" target="_blank" rel="noopener noreferrer">
-                <MdOutlineEmail className='hover:text-iconscolorktphover transition cursor-pointer' />
-              </a>
-              <a href="https://github.com/karanpustake" target="_blank" rel="noopener noreferrer">
-                <TbBrandGithub className='hover:text-iconscolorktphover transition cursor-pointer' />
-              </a>
+<AiOutlineDiscord className='hover:text-iconscolorktphover transition cursor-pointer' />
+</a>
+<a href="mailto:karanpustake0@gmail" target="_blank" rel="noopener noreferrer">
+<MdOutlineEmail className='hover:text-iconscolorktphover transition cursor-pointer' />
+</a>
+<a href="https://github.com/karanpustake" target="_blank" rel="noopener noreferrer">
+<TbBrandGithub className='hover:text-iconscolorktphover transition cursor-pointer' />
+</a>
 
 
             </div>
