@@ -49,7 +49,7 @@ export const Alignment = () => {
 
   return (
     <div id="Starter">
-      <h1 className='absolute text-[30vh] text-stroke text-white opacity-10 translate-x-24 translate-y-12'>Luke</h1>
+      <h1 className='absolute text-[30vh] -z-30 text-stroke text-white opacity-10 translate-x-24 translate-y-12'>Luke</h1>
 
       {/* Navbar */}
       <Nav handleScrollTo={handleScrollTo} />
