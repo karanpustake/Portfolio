@@ -21,7 +21,7 @@ export const Profile = () => {
             <p className='text-3xl my-6 max-md:text-2xl text-white  font-normal font-Exo w-96 max-md:w-auto '>
               an dedicated geek who loves to make things in an ingenious way.
             </p>
-            <div className='w-auto my-6 text-iconscolorktp  flex gap-8 text-3xl max-md:flex max-md:justify-center max-[550px]:justify-normal '>
+            <div className='w-auto my-6 max-[550px]:my-0 text-iconscolorktp  flex gap-8 text-3xl max-md:flex max-md:justify-center max-[550px]:justify-normal '>
 
               <a href="https://discord.com/users/586083808508379137" target="_blank" rel="noopener noreferrer">
 

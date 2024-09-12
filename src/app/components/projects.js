@@ -14,7 +14,7 @@ function Projects(props) {
   return (
     <div className='hover:-translate-y-2 transition duration-300 hover:drop-shadow-[0_4px_10px_rgba(255,255,255,0.5)]'>
       <a href={props.linktoproject} target='_blank' rel="noreferrer">
-        <div className="border-red-300 border-[2px] bg-white rounded-md h-48 max-[550px]:h-[12rem] w-[60vh] max-[550px]:w-[55vh] flex flex-col justify-between p-3">
+        <div className="border-red-300 border-[2px] bg-white rounded-md h-48 max-[550px]:h-[12rem] w-[60vh] max-[550px]:w-auto max-[550px]:mx-3  flex flex-col justify-between p-3">
           <div>
             <div className="githubusername flex items-center gap-2">
               <img
