@@ -50,8 +50,10 @@ const DiscordPresence = ({ userId }) => {
           
           <h1 className="text-2xl text-cyan-400 font-bold">{data.data.discord_user.username}</h1>
           <div className='font-Questrial'>
+            <div className=''>
 
           <p >Status: <span className='text-yellow-400'>{data.data.discord_status}</span> </p>
+            </div>
           <p className='text-gray-200'>{currentTime.toLocaleString()}</p>
           </div>
           </div>

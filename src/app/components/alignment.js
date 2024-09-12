@@ -48,11 +48,13 @@ export const Alignment = () => {
   };
 
   return (
-    <div id="Starter">
-      <h1 className='absolute text-[30vh] -z-30 text-stroke text-white opacity-10 translate-x-24 translate-y-12'>Luke</h1>
+    <div id="Starter" className=''>
+      <h1 className='absolute text-[30vh] -z-30 text-stroke text-white opacity-10 translate-x-24 max-md:hidden translate-y-12'>Luke</h1>
 
-      {/* Navbar */}
+      {/* Navbar */}<div className='flex justify-center'>
+
       <Nav handleScrollTo={handleScrollTo} />
+      </div>
 
       {/* Profile Section */}
       <div className='flex justify-center ' ref={profileRef}>
@@ -61,10 +63,10 @@ export const Alignment = () => {
       </div>
 
       {/* About Section */}
-      <div className='flex text-center items-center gap-14 my-12 justify-center' ref={aboutRef}>
+      <div className='flex text-center items-center gap-14 my-12 justify-center max-md:flex-col-reverse max-lg:flex-col-reverse ' ref={aboutRef}>
         <DiscordStatus userId={"586083808508379137"} />
         <About />
-        <h1 className='absolute text-[30vh] text-stroke text-white opacity-10 translate-x-[70vh] -translate-y-6'>!!</h1>
+        <h1 className='absolute text-[30vh] text-stroke text-white opacity-10 max-md:hidden max-lg:translate-x-0 translate-x-[70vh] max-md:translate-x-[20vh] -translate-y-6'>!!</h1>
 
       </div>
 
@@ -74,18 +76,18 @@ export const Alignment = () => {
       </div>
 
       {/* Projects Section */}
-      <h1 className='absolute text-[30vh] text-stroke text-white opacity-10 translate-x-32 -translate-y-6'>&#60;	
+      <h1 className='absolute text-[30vh] text-stroke max-md:hidden text-white opacity-10 translate-x-32 -translate-y-6'>&#60;	
       / &#62;	
       </h1>
       <div className='flex my-3 justify-center'>
 
-        <div className='mt-12 text-center' ref={projectsRef}>
-          <h1 className='text-white text-5xl mb-2 font-Outfit font-bold'>Work</h1>
+        <div className='mt-12 text-center ' ref={projectsRef}>
+          <h1 className='text-white text-5xl mb-2 font-Outfit font-bold '>Work</h1>
           <p className='text-xl text-yellow-400'>Here is some of my work:</p>
         </div>
       </div>
 
-      <div className='flex justify-center my-16 gap-12'>
+      <div className='flex justify-center my-16 gap-12 max-md:flex-col max-lg:flex-col max-md:items-center max-lg:items-center max-md:gap-12'>
         <Projects 
           title={'PhotosApp'} 
           linktoproject={'https://github.com/karanpustake/Image-Search-App-project'} 

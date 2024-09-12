@@ -21,7 +21,7 @@ export const Nav = ({ handleScrollTo }) => {
 
   return (
     <div className='container justify-center fixed flex'>
-      <div className={`text-white flex rounded-md px-24 py-10 transition duration-300 gap-20 ${isScrolled ? 'backdrop-blur-xl rounded-md transition px-24 py-10 opacity-100' : 'backdrop-blur-0'}`}>
+      <div className={`text-white flex rounded-md px-24 py-10 transition  duration-300 gap-20 ${isScrolled ? 'backdrop-blur-xl rounded-md transition px-24 py-10 opacity-100' : 'max-[550px]:w-auto backdrop-blur-0'}`}>
         <p onClick={() => handleScrollTo('profile')} className='hover:text-orange-200 cursor-pointer transition duration-300' >/</p>
         <p onClick={() => handleScrollTo('about')} className='hover:text-orange-200 cursor-pointer transition duration-300'>About</p>
         <p onClick={() => handleScrollTo('projects')} className='hover:text-orange-200 cursor-pointer transition duration-300'>Projects</p>

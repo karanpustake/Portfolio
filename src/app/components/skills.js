@@ -10,7 +10,7 @@ function Skills() {
                       What i <span className='text-cyan-400'>use ?</span></h1>
             </div>
             <div className=' '>
-            <ul className='flex gap-3 flex-rwo justify-items-center text-2xl '>
+            <ul className='flex gap-3 flex-rwo justify-items-center text-2xl max-[550px]:grid max-[550px]:grid-cols-2'>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>

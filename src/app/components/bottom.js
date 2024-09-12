@@ -8,7 +8,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 function Bottom() {
     return (
         <div>
-            <div className=' flex justify-between mx-64  items-center'>
+            <div className=' flex justify-between mx-64 max-md:mx-12 max-lg:mx-12 max-xl:mx-24 max-xl:items-center   max-[550px]:flex-col  items-center'>
           
             <div className='text-iconscolorktpbottom h-auto flex gap-4 mb-3 text-2xl '>
 
@@ -30,7 +30,7 @@ function Bottom() {
 
             </div>
             <div>
-                <h1 className='text-orange-300 font-Exo font-semibold '>
+                <h1 className='text-orange-300 font-Exo font-semibold'>
                 Copyright © Karan Pustake.                </h1>
             </div>
             </div>
